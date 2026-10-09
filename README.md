@@ -13,7 +13,7 @@
 
 - **程式語言**：C、C++、Python、PHP、SQL、HTML/CSS/JavaScript
 - **系統與網路**：Linux、POSIX Socket（TCP/UDP）、pthreads、fork/IPC、Git
-- **AI 與影像**：深度學習（LSTM、YOLOv4）、OpenCV、RAG / LLM、Jetson Nano
+- **AI 與影像**：LLM／RAG（Transformers、FAISS、LlamaIndex）、YOLOv4、OpenCV、Jetson Nano
 - **資料與工具**：MySQL、Weka、R、Minitab、Quartus II、NuMicro NUC140（ARM Cortex-M0）
 
 ### 專案
@@ -21,11 +21,11 @@
 | 專案 | 說明 | 技術 |
 |---|---|---|
 | [MMM-RAG](https://github.com/doris31109861/mmm-rag-finance) | 在 8GB 顯卡上重現 ICPADS 2025 多 Agent 多模態 RAG，應用於財經圖表 | Python、Transformers、FAISS、LlamaIndex |
-| [Strawberry-Picking Robot](https://github.com/doris31109861/strawberry-picking-robot) | 畢業專題：深度攝影機＋YOLOv4-tiny 判斷成熟度，控制 6 軸手臂採摘 | Python、OpenCV、Jetson Nano |
+| [Strawberry-Picking Robot](https://github.com/doris31109861/strawberry-picking-robot) | 畢業專題（4 人）：我負責機械手臂控制——影像座標＋深度轉舵機角度、PCA9685 驅動 6 軸手臂採摘 | Python、Jetson Nano、PCA9685 |
 | [Network Router Simulator](https://github.com/doris31109861/network-router-simulator) | Client–Router–Server 三節點 TCP/UDP 模擬，量測 RTT 與排隊延遲 | C/C++、POSIX sockets、pthreads |
 | [Faculty Website](https://github.com/doris31109861/faculty-website-php-mysql) | 教授個人網站＋後台 CRUD（成績 98） | PHP、MySQL |
 | [SIC/XE Assembler](https://github.com/doris31109861/sic-xe-assembler) | 兩階段組譯器（成績 91） | C |
-| [OpenCV Image Processing](https://github.com/doris31109861/opencv-image-processing) | 手寫雙線性內插縮放、灰階轉換等影像處理 | C++、Python、OpenCV |
+| [OpenCV Image Processing](https://github.com/doris31109861/opencv-image-processing) | 逐像素實作雙線性內插縮放、灰階轉換；OpenCV 貪吃蛇 | C++、Python、OpenCV |
 | [C Data Structures](https://github.com/doris31109861/c-data-structures-projects) | 資料結構與作業系統課程作業 | C |
 
 ### 其他
@@ -47,13 +47,13 @@ My research combines **RAG and LLMs** with deep-learning time-series anomaly det
 
 - **Languages**: C, C++, Python, PHP, SQL, HTML/CSS/JavaScript
 - **Systems & networking**: Linux, POSIX sockets (TCP/UDP), pthreads, fork/IPC, Git
-- **AI & vision**: deep learning (LSTM, YOLOv4), OpenCV, RAG / LLM, Jetson Nano
+- **AI & vision**: LLM / RAG (Transformers, FAISS, LlamaIndex), YOLOv4, OpenCV, Jetson Nano
 - **Data & tools**: MySQL, Weka, R, Minitab, Quartus II, NuMicro NUC140 (ARM Cortex-M0)
 
 ### Highlights
 
 - **MMM-RAG** — a multi-agent multimodal RAG framework (ICPADS 2025) reproduced on a single 8 GB GPU for financial charts
-- **Strawberry-picking robot** — ripeness detection with YOLOv4-tiny and a depth camera on a Jetson Nano, driving a 6-axis arm
+- **Strawberry-picking robot** — four-person capstone; I wrote the arm control that turns YOLOv4-tiny detections and depth into servo angles for a 6-axis arm
 - **Network router simulator** — TCP/UDP forwarding through a multithreaded router with measured RTT and queuing delay
 - ICPC Taiwan Honorable Mention · NCPC finalist · TOEIC 785 · MOE "Dream Building Overseas" intern in Belize (2022)
 
