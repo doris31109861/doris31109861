@@ -20,7 +20,7 @@
 
 | 專案 | 說明 | 技術 |
 |---|---|---|
-| [MMM-RAG](https://github.com/doris31109861/MMM-RAG-Stock-Prediction) | 在 8GB 顯卡上重現 ICPADS 2025 多 Agent 多模態 RAG，應用於財經圖表 | Python、Transformers、FAISS、LlamaIndex |
+| [MMM-RAG](https://github.com/doris31109861/mmm-rag-finance) | 在 8GB 顯卡上重現 ICPADS 2025 多 Agent 多模態 RAG，應用於財經圖表 | Python、Transformers、FAISS、LlamaIndex |
 | [Strawberry-Picking Robot](https://github.com/doris31109861/strawberry-picking-robot) | 畢業專題：深度攝影機＋YOLOv4-tiny 判斷成熟度，控制 6 軸手臂採摘 | Python、OpenCV、Jetson Nano |
 | [Network Router Simulator](https://github.com/doris31109861/network-router-simulator) | Client–Router–Server 三節點 TCP/UDP 模擬，量測 RTT 與排隊延遲 | C/C++、POSIX sockets、pthreads |
 | [Faculty Website](https://github.com/doris31109861/faculty-website-php-mysql) | 教授個人網站＋後台 CRUD（成績 98） | PHP、MySQL |
