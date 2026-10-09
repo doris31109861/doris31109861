@@ -34,7 +34,7 @@
 - 教育部「學海築夢」：貝里斯 San Pedro 市議會實習（2022）
 - TOEIC 785
 
-📫 a31109861@gmail.com
+🌐 https://doris31109861.github.io/ · 📫 a31109861@gmail.com
 
 ---
 
@@ -57,4 +57,4 @@ My research combines **RAG and LLMs** with deep-learning time-series anomaly det
 - **Network router simulator** — TCP/UDP forwarding through a multithreaded router with measured RTT and queuing delay
 - ICPC Taiwan Honorable Mention · NCPC finalist · TOEIC 785 · MOE "Dream Building Overseas" intern in Belize (2022)
 
-📫 a31109861@gmail.com
+🌐 https://doris31109861.github.io/ · 📫 a31109861@gmail.com
