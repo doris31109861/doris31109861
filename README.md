@@ -2,6 +2,9 @@
 
 [中文](#中文) | [English](#english)
 
+> 此頁面於 2026/10 以 AI（Claude）協助製作。
+> Built with AI assistance (Claude) in October 2026.
+
 ---
 
 ## 中文
